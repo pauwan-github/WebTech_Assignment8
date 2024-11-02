@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+</head>
+<link rel="stylesheet" href="trackerapp.css">
+<body>
+    <div id="heady">
+        <div id="bar">
+            <ul Alink="gold" Vlink="white" link="blue">
+                <li><a href="trackerapp.html">Home</a></li>
+                <li><a href="#" id="active">Login</a></li>
+                <li><a href="add-expense.html">Add Expenses</a></li>
+                <li><a href="edit-expense.html">Edit Expenses</a></li>
+                <li><a href="view-expense.html">View Expenses</a></li>
+            </ul>
+            
+        </div>
+    </div>
+    <header>
+        <h1>User Login</h1>
+    </header>
+    <section>
+        <form action="login.php" method="POST">
+            <!-- Form fields for login -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pauwan. All rights reserved.</p>
+    </footer>
+</body>
+</html>

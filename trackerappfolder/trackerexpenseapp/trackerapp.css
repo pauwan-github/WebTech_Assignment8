@@ -1,0 +1,136 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bar{
+    margin-top: 30px;
+    background-color: skyblue;
+    text-align: center;
+    padding-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 0px;
+
+}
+    #bar ul li{
+    display: inline; 
+}
+#bar ul li a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: 500ms;
+    margin-left: 5px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+#active{
+    background-color: red;
+    color: yellow;
+    border-radius: 5px;
+}
+#bar ul li a:hover{
+    background-color: blue;
+    color: white;
+    transition: 500ms;
+    border-radius: 10px;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Input styles */
+input[type=text],
+input[type=password],
+input[type=number],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    section {
+        padding: 15px;
+    }
+    form {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+    header {
+        padding: 5px;
+    }
+    section {
+        padding: 10px;
+    }
+}
